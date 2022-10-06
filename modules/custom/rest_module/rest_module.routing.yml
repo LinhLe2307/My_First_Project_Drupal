@@ -1,0 +1,7 @@
+rest_module.rest:
+  path: '/node/rest_api'
+  defaults:
+    _controller: '\Drupal\rest_module\Controller\RestController::rest'
+    _title: 'Rest module links'
+  requirements:
+    _permission: "TRUE"

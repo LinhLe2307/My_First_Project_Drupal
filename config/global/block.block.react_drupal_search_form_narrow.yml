@@ -1,0 +1,23 @@
+uuid: 107b3201-b0ec-451c-b2c9-ca6ecf2f6a3e
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - react_drupal
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: react_drupal_search_form_narrow
+theme: react_drupal
+region: primary_menu
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

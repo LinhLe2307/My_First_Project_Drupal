@@ -1,0 +1,5 @@
+_core:
+  default_config_hash: EWnJH6RpOBRfMBbVQbPcWmwlsHZe8EC3L5bL4Rnx1LY
+avatar:
+  path: themes/my_portfolio/js/src/assets/images/Avatar.jpg
+  use_default: false

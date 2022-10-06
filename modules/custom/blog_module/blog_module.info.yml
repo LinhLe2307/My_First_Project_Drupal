@@ -1,0 +1,6 @@
+name: Blog Module
+type: module
+description: My first custom drupal 9 module
+package: custom
+version: 1.0.0
+core_version_requirement: ^8 || ^9

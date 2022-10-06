@@ -1,0 +1,22 @@
+uuid: 9f066224-fcdd-45a9-b21e-4f6308c032d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - my_personal_theme
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: my_personal_theme_breadcrumbs
+theme: my_personal_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

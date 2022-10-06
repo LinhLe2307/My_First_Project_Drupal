@@ -1,0 +1,22 @@
+uuid: 59e4a349-53c2-4730-88e1-ea948db7d48c
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - my_generated_theme
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: my_generated_theme_help
+theme: my_generated_theme
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

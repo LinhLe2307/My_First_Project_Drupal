@@ -1,0 +1,8 @@
+name: React Drupal theme
+type: theme
+description: A react app inside my drupal
+base theme: bartik # we can choose any theme
+core_version_requirement: ^9
+
+libraries:
+  - react_drupal/react_app

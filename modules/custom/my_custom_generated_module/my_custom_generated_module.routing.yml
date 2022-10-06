@@ -1,0 +1,8 @@
+my_custom_generated_module.example:
+  path: '/my-custom-generated-module/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\my_custom_generated_module\Controller\MyCustomGeneratedModuleController::build'
+  requirements:
+    _permission: 'access content'
+

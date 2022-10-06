@@ -1,0 +1,7 @@
+navigation_module.first:
+  path: '/page/links'
+  defaults:
+    _controller: '\Drupal\customer_links\Controller\CustomerLinksController::links'
+    _title: 'Customer Drupal 9 module links'
+  requirements:
+    _permission: "TRUE"

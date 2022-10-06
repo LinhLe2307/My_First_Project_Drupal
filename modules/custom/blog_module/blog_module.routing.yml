@@ -1,0 +1,7 @@
+blog_module.first:
+  path: '/blog/page'
+  defaults:
+    _controller: '\Drupal\blog_module\Controller\BlogController::blog'
+    _title: 'Welcome to my blog Drupal 9 module'
+  requirements:
+    _permission: 'access content'

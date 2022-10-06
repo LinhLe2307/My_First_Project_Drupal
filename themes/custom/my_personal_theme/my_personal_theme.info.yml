@@ -1,0 +1,8 @@
+name: My Personal theme
+type: theme
+description: My personal portfolio
+base theme: bartik # we can choose any theme
+core_version_requirement: ^9
+
+libraries:
+  - my_personal_theme/react_app
